@@ -10,11 +10,15 @@ import ModalContact from '../modal';
 //styles
 import styles from './navbar.module.scss'
 
+
+//img
+import Logo from '../../../img/logo-asllan-branco.png'
+
 function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className={styles.navbar_container}>
       <Container>
-        <Navbar.Brand href="#home" className={styles.image_asllan}> </Navbar.Brand>
+        <Navbar.Brand href="#home" > <img src={Logo} alt='Logo' className={styles.logo_asllan}></img></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">

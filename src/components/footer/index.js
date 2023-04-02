@@ -1,13 +1,20 @@
 
 import styles from './footer.module.scss';
 
+//img
+import logo from '../../img/logo-asllan-branco.png'
+import whatsApp from '../../img/whatsapp.png'
+import instagram from '../../img/instagram.png'
+import facebook from '../../img/facebook.png'
+
+
 
 function Footer() {
   return (
     <div className={styles.container}>
         <div className={styles.box01}>
           <div>
-            <h1>Asllan</h1>
+            <img src={logo} alt='Logo Asllan' title='Logo' className={styles.logo_asllan}></img>
             <a>Sobre</a>
             <a>Nossos Principios</a>
           </div>
@@ -29,14 +36,14 @@ function Footer() {
           </div>
         </div>
         <div className={styles.box_media}>
-            <div>Redes</div>
-            <ul>
-              <li>ins</li>
-              <li>face</li>
-              <li>whats</li>
-              <li>tel</li>
-            </ul>
+          <p>Fique em sintonia com a gente</p>
+          <div>
+            <img src={whatsApp} alt='whatsApp'></img>
+            <img src={instagram} alt='instagram'></img>
+            <img src={facebook} alt='facebook'></img>
+          </div>
         </div>
+        <p className={styles.copy}> 2023 Viigas &copy; - Todos os direitos reservados</p>
     </div>
   );
 }
