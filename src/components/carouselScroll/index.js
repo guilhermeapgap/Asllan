@@ -14,8 +14,8 @@ function CarouselScroll(){
                     <img src={delivery} alt='delivery' title='delivery'></img>
 
                     <div>
-                        <h2>Free shipping</h2>
-                        <p>lorem daf  dsafkj sdadjç dfkjdçsf </p>
+                        <h2>Entrega Grátis</h2>
+                        <p>Entregamos em Brasília e entorno </p>
                     </div>            
                 </div>
 
@@ -23,8 +23,8 @@ function CarouselScroll(){
                     <img src={goodPrice} alt='goodPrice' title='goodPrice'></img>
 
                     <div>
-                        <h2>Good price</h2>
-                        <p>lorem daf  dsafkj sdadjç dfkjdçsf </p>  
+                        <h2>Ótimos preços</h2>
+                        <p>lorem daf  dsafkj sdadjç lorem </p>  
                     </div>           
 
                 </div>
@@ -33,8 +33,8 @@ function CarouselScroll(){
                     <img src={store} alt='store' title='store'></img>
 
                     <div>
-                        <h2>Store</h2>
-                        <p>lorem daf  dsafkj sdadjç dfkjdçsf </p>   
+                        <h2>Loja física</h2>
+                        <p>lorem loremlorem lorem </p>   
                     </div>             
                 </div>
             </div>
