@@ -7,10 +7,10 @@ import Modal from 'react-bootstrap/Modal';
 import style from './modal.module.scss'
 
 //video
-import { Player, ControlBar } from 'video-react';
+import video from '../../../../video-historia.mp4'
 
 //img
-import post from '../../../../img/sapatos-banner.webp'
+import post from '../../../../img/tumb.jpg'
 
 
 function Modalhistory() {
@@ -22,7 +22,7 @@ function Modalhistory() {
   return (
     <>
       <Button variant="primary" onClick={handleShow} className={style.button_modal}>
-        Contatos
+        Video
       </Button>
 
       <Modal
@@ -32,18 +32,10 @@ function Modalhistory() {
         keyboard={false}
       >
         <Modal.Header closeButton>
-          <Modal.Title>Contatos</Modal.Title>
+          <Modal.Title>Conheça nossa história</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Player
-            playsInline
-            poster={post}
-            controlbar
-            className={style.player}
-            src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-            
-          />    
-
+          <video src={video} controls poster={post}></video>  
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

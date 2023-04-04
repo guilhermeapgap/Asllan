@@ -7,4 +7,13 @@
 
 video{
     max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+
+@media (max-width:470px) {
+    video{
+        max-width: 350px;
+    }
 }

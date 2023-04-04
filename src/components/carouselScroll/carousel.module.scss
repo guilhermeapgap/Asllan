@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color:  #805959;
+    border-radius: 0 0 5px 5px;
+}
+.items div{
+    //padding: 60px 20px;
+    text-align: center;
+    min-width: 250px;
+    scroll-snap-align: start;
+    margin: 10px;
+}
+
+.items{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    color: #fff;
+
+    
+    img{
+        width: 100px;
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.853);
+        padding: 5px;
+        border-radius: 5px;
+        margin-left: 20px;
+    }
+}
+
+
+.item{
+    text-align: center;
+    max-width: 250px;
+}
+
+
+
+
+@media (min-width:950px) {
+    .responsive{
+        display: flex;
+    }
+}
+
+
+

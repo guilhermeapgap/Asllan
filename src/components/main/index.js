@@ -4,7 +4,7 @@ import styles from './main.module.scss'
 //comnponets
 import Carousel1 from '../bootstrap/carousel';
 import Modalhistory from '../bootstrap/modal/historia'
-
+import CarouselScroll from '../carouselScroll';
 
 
 //img
@@ -16,7 +16,8 @@ function Main(){
     return(
         <div className={styles.container}>       
             <div className={styles.banner}></div>
-            <ul>
+
+            {/* <ul>
                 <li>
                     <img src={delivery} alt='delivery' title='delivery'></img>
                     <div>
@@ -38,10 +39,10 @@ function Main(){
                         <p>lorem daf  dsafkj sdadjç dfkjdçsf </p>             
                     </div>
                 </li>
-            </ul>
-
+            </ul> */}
+            <CarouselScroll/>
             <div className={styles.box2}>
-                <h1>Conheça nossa história</h1>    
+                <h1 id='sobre'>Conheça nossa história</h1>    
                 <div>                
                     <p>lorem Ipsun </p>
                     <p> <Modalhistory/> </p>
