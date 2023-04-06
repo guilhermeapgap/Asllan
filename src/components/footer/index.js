@@ -8,7 +8,6 @@ import instagram from '../../img/instagram.png'
 import facebook from '../../img/facebook.png'
 
 
-
 function Footer() {
   return (
     <div className={styles.container}>

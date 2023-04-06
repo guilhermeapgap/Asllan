@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import { Link } from 'react-router-dom';
 
 import style from './modal.module.scss'
 
@@ -9,7 +10,6 @@ import style from './modal.module.scss'
 import whatsApp from '../../../img/whatsapp.png'
 import instagram from '../../../img/instagram.png'
 import facebook from '../../../img/facebook.png'
-import { NavLink } from 'react-bootstrap';
 
 function ModalContact() {
   const [show, setShow] = useState(false);
@@ -37,6 +37,7 @@ function ModalContact() {
             <p>Fique em sintonia com a gente</p>
             <div>
               <img src={whatsApp} alt='whatsApp'></img>
+              
               <img src={instagram} alt='instagram'></img>
               <img src={facebook} alt='facebook'></img>
             </div>

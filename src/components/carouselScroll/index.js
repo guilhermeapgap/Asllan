@@ -5,18 +5,20 @@ import delivery from '../../img/Delivery-PNG-truck.png'
 import goodPrice from'../../img/goodPrice.png'
 import store from '../../img/storelogo.png'
 
+
 function CarouselScroll(){
     return(
+        
         <div className={style.container}>
 
             <div className={style.items}>
                 <div className={style.item}>
                     <img src={delivery} alt='delivery' title='delivery'></img>
-
                     <div>
                         <h2>Entrega Grátis</h2>
                         <p>Entregamos em Brasília e entorno </p>
                     </div>            
+
                 </div>
 
                 <div className={style.item}>
@@ -37,11 +39,9 @@ function CarouselScroll(){
                         <p>lorem loremlorem lorem </p>   
                     </div>             
                 </div>
-            </div>
-
-
-
+            </div>   
         </div>
+        
     )
 }
 

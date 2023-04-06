@@ -12,12 +12,16 @@ function Carousel1() {
   return (
     <Carousel className={style.container}>
       <Carousel.Item className={style.box_img}>
-        <img src={foto1} alt='foto slide'/>
+        <img src={foto3} alt='foto slide'/>
+        <img src={foto2} alt='foto slide' className={style.img_carousel_responsive}/>
+
       </Carousel.Item>
 
 
       <Carousel.Item className={style.box_img}>
         <img src={foto2} alt='foto slide'/>
+        <img src={foto2} alt='foto slide' className={style.img_carousel_responsive}/>
+
 
         <Carousel.Caption>
           <h3>Second slide label</h3>
@@ -26,7 +30,7 @@ function Carousel1() {
       </Carousel.Item>
       <Carousel.Item className={style.box_img}>
         <img src={foto3} alt='foto slide'/>
-
+        <img src={foto2} alt='foto slide' className={style.img_carousel_responsive}/>
 
         <Carousel.Caption>
           <h3>Third slide label</h3>

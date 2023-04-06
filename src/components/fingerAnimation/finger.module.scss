@@ -1,0 +1,20 @@
+.finger{
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0) !important;
+    animation: fingerAnimation 1.5s ease-in-out alternate 3 ;
+}
+
+@keyframes fingerAnimation {
+    from{
+        rotate: 45deg;
+    }
+    to{
+        rotate: -15deg;
+    }
+}
+
+@media (min-width:800px) {
+    .finger{
+        display: none;
+    }
+}
