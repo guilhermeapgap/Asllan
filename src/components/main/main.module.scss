@@ -30,12 +30,11 @@
     }
 }
 
-
 .finger_center{
     display: flex;
     justify-content: center;
     animation:0.3s invisivle  linear forwards;
-    animation-delay: 5s;
+    animation-delay: 4.5s;
 }
 
 
@@ -45,6 +44,11 @@
         transform-origin: center top;
     }
 
+}
+@media (min-width:800px) {
+    .box2{
+        margin:70px auto 70px auto; 
+    }
 }
 @media (max-width:950px) {
     .banner{
