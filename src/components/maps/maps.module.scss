@@ -1,0 +1,19 @@
+.container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.maps{
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+}
+
+@media (max-width:800px) {
+    .maps{
+        max-width: 400px;
+        max-height: 300px;
+    }
+}

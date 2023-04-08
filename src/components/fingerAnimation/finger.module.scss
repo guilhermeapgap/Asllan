@@ -1,22 +1,31 @@
 .finger{
     position: relative;
-    top: -25px;
-    width: 100px;
+    top: -130px;
+    width: 120px;
     background-color: rgba(255, 255, 255, 0) !important;
-    animation: fingerAnimation 1.5s ease-in-out alternate 3 ;
+    animation: fingerAnimation 2s ease-in-out alternate 4 ;
 }
 
 @keyframes fingerAnimation {
-    from{
-        rotate: 45deg;
+    // from{
+    //     rotate: 45deg;
+    // }
+    // to{
+    //     rotate: -15deg;
+    // }
+
+    0%{
+        transform: translateX(-5%);
     }
-    to{
-        rotate: -15deg;
+
+    100%{
+        transform: translateX(-110%);
+
     }
 }
 
 @media (min-width:800px) {
-    .finger{
-        display: none;
-    }
+     .finger{
+         display: none;
+     }
 }

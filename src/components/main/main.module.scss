@@ -17,7 +17,7 @@
 
 .box2{
     max-width: 1000px;
-    margin:0 auto 70px auto;
+    margin:-30px auto 70px auto;
     text-align: center;
     div{
         display: flex;
@@ -32,9 +32,9 @@
 
 .finger_center{
     display: flex;
-    justify-content: center;
-    animation:0.3s invisivle  linear forwards;
-    animation-delay: 4.5s;
+    justify-content: flex-end;
+    animation:0.1s invisivle  linear forwards;
+    animation-delay: 5.5s;
 }
 
 
