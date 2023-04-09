@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 import style from './modal.module.scss'
 
@@ -11,6 +11,20 @@ import whatsApp from '../../../img/whatsapp.png'
 import instagram from '../../../img/instagram.png'
 import facebook from '../../../img/facebook.png'
 
+
+const gerarLink = () => {
+  const numeroTelefone = '556199028162'; // Substitua com o número de telefone do destinatário
+  const mensagem = 'Olá! vim pelo site'; // Substitua com a mensagem personalizada que você deseja enviar
+  const link = `https://api.whatsapp.com/send?phone=${numeroTelefone}&text=${encodeURIComponent(mensagem)}`;
+  window.open(link, '_blank');
+};
+const instagramlink = () => {
+  window.open('https://www.instagram.com/asllanrepublic/', '_blank'); // Substitua com a URL do site externo que você deseja abrir em uma nova aba
+};
+const facebooklink = () => {
+  window.open('https://www.facebook.com/asllanrepublic', '_blank'); // Substitua com a URL do site externo que você deseja abrir em uma nova aba
+};
+
 function ModalContact() {
   const [show, setShow] = useState(false);
 
@@ -19,7 +33,7 @@ function ModalContact() {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow} className={style.button_modal}>
+      <Button onClick={handleShow} className={style.button_modal}>
         Contatos
       </Button>
 
@@ -36,10 +50,13 @@ function ModalContact() {
           <div className={style.box_media}>
             <p>Fique em sintonia com a gente</p>
             <div>
-              <img src={whatsApp} alt='whatsApp'></img>
+
+              <button onClick={gerarLink}> <img src={whatsApp} alt='whatsApp'></img></button>
+
+              <button onClick={instagramlink} ><img src={instagram} alt='instagram'></img></button>
               
-              <img src={instagram} alt='instagram'></img>
-              <img src={facebook} alt='facebook'></img>
+              <button onClick={facebooklink}><img src={facebook} alt='facebook'></img></button>
+              
             </div>
           </div>
         </Modal.Body>
@@ -53,4 +70,4 @@ function ModalContact() {
   );
 }
 
-export default ModalContact
+export default ModalContact 

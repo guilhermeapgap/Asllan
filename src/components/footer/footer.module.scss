@@ -2,7 +2,7 @@
 .container{
     background-color: #000;
     padding: 30px;
-    height: 500px;
+    height: 300px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -26,6 +26,7 @@
         h1{
             margin-top: 20px;
         }
+        text-align: center;
     }
 }
 
@@ -50,6 +51,10 @@
         padding-top: 5px;
         margin:0 40px 0 0;
     }
+    button{
+        background-color: #ffffff00;
+        border: none;
+    }
 }
 
 .copy{
@@ -58,9 +63,6 @@
 @media (max-width:800px) {
     .box01{
         flex-direction: column;
-    }
-    .container{
-        height: 800px;
     }
     .box_media{
         flex-direction: column;

@@ -1,5 +1,5 @@
 .container{
-    background-color: #805959;
+    background-color:var(--marron);
     height: 500px;
 
     
@@ -22,7 +22,7 @@
     img{
         max-width: 400px;
         max-height: 500px;
-        padding: 20px;
+        //padding: 20px;
     }
     .img_carousel_responsive{
         display: none;

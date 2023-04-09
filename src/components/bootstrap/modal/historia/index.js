@@ -38,7 +38,7 @@ function Modalhistory() {
           <video src={video} controls poster={post}></video>  
         </Modal.Body>
         <Modal.Footer>
-          <Button variant="secondary" onClick={handleClose}>
+          <Button variant="dark" onClick={handleClose}>
             Fechar
           </Button>
         </Modal.Footer>

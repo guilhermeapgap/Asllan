@@ -1,7 +1,7 @@
 import style from './carousel.module.scss'
 
 //img
-import delivery from '../../img/Delivery-PNG-truck.png'
+import delivery from '../../img/delivery.png'
 import goodPrice from'../../img/goodPrice.png'
 import store from '../../img/storelogo.png'
 
@@ -26,7 +26,7 @@ function CarouselScroll(){
 
                     <div>
                         <h2>Ótimos preços</h2>
-                        <p>lorem daf  dsafkj sdadjç lorem </p>  
+                        <p>Melhor preço do mercado</p>  
                     </div>           
 
                 </div>
@@ -36,7 +36,7 @@ function CarouselScroll(){
 
                     <div>
                         <h2>Loja física</h2>
-                        <p>lorem loremlorem lorem </p>   
+                        <p>Estamos sempre prontos para <br/>recebê-lo em nossa loja física </p>   
                     </div>             
                 </div>
             </div>   

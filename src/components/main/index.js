@@ -8,10 +8,7 @@ import CarouselScroll from '../carouselScroll';
 import FingerAnimation from '../fingerAnimation'
 import Maps from '../maps';
 
-//img
-import delivery from '../../img/Delivery-PNG-truck.png'
-import goodPrice from'../../img/goodPrice.png'
-import store from '../../img/storelogo.png'
+
 
 function Main(){
     return(

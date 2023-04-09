@@ -2,7 +2,14 @@
     background-color: black !important;
 }
 
-
+.navbar_links{
+    a{
+        color: white;
+    }
+    button:hover{
+        color: rgba(255, 255, 255, 0.716);
+    }
+}
 .logo_asllan{
     width: 120px;
     height: 70px;

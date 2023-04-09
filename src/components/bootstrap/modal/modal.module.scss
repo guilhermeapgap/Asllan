@@ -2,7 +2,7 @@
     background-color: rgba(0, 0, 0, 0) !important;
     border: none !important;
     padding: 0 !important;
-
+    margin-bottom: 5px;
 }
 
 
@@ -23,5 +23,9 @@
     p{
         padding-top: 5px;
         margin:0;
+    }
+    button{
+        background-color: #ffffff00;
+        border: none;
     }
 }
