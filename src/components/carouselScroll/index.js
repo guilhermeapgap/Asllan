@@ -36,7 +36,7 @@ function CarouselScroll(){
 
                     <div>
                         <h2>Loja física</h2>
-                        <p>Estamos sempre prontos para <br/>recebê-lo em nossa loja física </p>   
+                        <p>Estamos sempre prontos pararecebê-lo</p>   
                     </div>             
                 </div>
             </div>   

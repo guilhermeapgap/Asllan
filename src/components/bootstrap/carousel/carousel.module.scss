@@ -8,22 +8,26 @@
     padding: 15px;
     height: 450px;
     text-align: center;
-    
     img{
         max-width: 500px;
-        height: 600px;
+        height: 100%;
         padding: 0 20px;
+        margin: auto;
+
     }
 }
 
 
 
 @media (max-width:800px) {
-    img{
-        max-width: 400px;
-        max-height: 500px;
-        //padding: 20px;
+    .box_img{
+        img{
+            min-width: 320px;
+            max-height:110% ;
+            //padding: 20px;
+        }   
     }
+    
     .img_carousel_responsive{
         display: none;
     }
