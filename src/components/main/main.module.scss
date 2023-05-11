@@ -10,11 +10,12 @@
     background: url(../../img/7-mod10.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    //margin:0 20px;
+    background-position-y: bottom;
+
     display: flex;
     justify-content: center;
     align-items: end;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .box2{
     border: solid 1.5px var(--marrom);
@@ -75,11 +76,10 @@
 @media (max-width:670px) {
     .banner{
         background: url(../../img/15.jpg);
-        background-repeat: no-repeat;        
+        background-repeat: no-repeat;   
+        background-position: bottom;     
         background-size: cover;
-        background-repeat: no-repeat;
-        width: 100% ;
-        height: 60vh;
-
+        max-width: 680px;
+        height: 55vh;
     }
 }

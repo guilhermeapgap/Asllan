@@ -1,7 +1,8 @@
 .container{
     background-color:var(--marrom);
     height: 500px;
-
+    max-width: 880px;
+    margin: auto;
     
 }
 .box_img{
@@ -23,12 +24,8 @@
     .box_img{
         img{
             min-width: 320px;
-            max-height:110% ;
+            max-height:120% ;
             //padding: 20px;
         }   
-    }
-    
-    .img_carousel_responsive{
-        display: none;
     }
 }

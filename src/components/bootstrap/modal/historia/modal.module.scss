@@ -6,14 +6,7 @@
 }
 
 video{
-    max-width: 450px;
+    max-width: 100%;
     margin: auto;
     text-align: center;
-}
-
-
-@media (max-width:470px) {
-    video{
-        max-width: 350px;
-    }
 }
